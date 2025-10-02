@@ -1,0 +1,546 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@500;700&family=Rosario:wght@400;700&display=swap');
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+body{
+    font-family: Arial, sans-serif;
+}
+
+/* APP BAR */
+.app-bar {
+    background-color: #00eafa;
+    display: grid;
+    gap: 10px;
+    height: 70px;
+  }
+   
+  .app-bar .app-bar__menu {
+    display: flex;
+    align-items: center;
+  }
+   
+  .app-bar .app-bar__menu button {
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+    padding: 8px;
+    cursor: pointer;
+    width: 44px;
+    height: 44px;
+  }
+   
+  .app-bar .app-bar__brand {
+    display: flex;
+    align-items: center;
+  }
+   
+  .app-bar .app-bar__brand h1 {
+    color: black;
+    text-transform: uppercase;
+    font-size: 22px;
+    user-select: none;
+  }
+   
+  .app-bar .app-bar__navigation {
+    transition: all 0.3s;
+    padding: 8px;
+    overflow: hidden;
+    justify-content: center;
+  }
+   
+  .app-bar .app-bar__navigation.open {
+    left: 0;
+  }
+   
+  .app-bar .app-bar__navigation ul li a {
+    text-decoration: none;
+    color: black;
+    margin-bottom: 5px;
+    font-weight: bold;
+    padding-bottom: 5px;
+    font-size: 15px;
+  }
+  
+  .app-bar .app-bar__navigation ul {
+    list-style: none;
+    padding-left: 25px;
+  }
+
+  .app-bar .app-bar__navigation ul li a:hover{
+    background-color: #71eef7;
+    padding: 5px;
+    border-radius: 10px;
+  }
+  
+  .hero {
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    background-color: Black !important
+  }
+  
+  .Jumbotron {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .title {
+    font-size: 30px;
+    margin: 10px 0;
+    text-align: center;
+  }
+  
+  .desc {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+
+  .card-detail{
+    padding: 50px;
+    border-radius: 30px;
+    box-shadow: 2px 4px 8px 2px rgba(0.5, 0, 0, 0.5);
+    margin: 30px auto;
+    width: 1000px;
+  }
+  
+  .card-detail .detail .left h1{
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+  }
+  
+  .card-detail .detail .left p {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    text-align: justify;
+  }
+  
+  .card-detail .detail {
+    display: flex; /* Menggunakan flexbox */
+  }
+  
+  .card-detail .detail .left {
+    flex: 1; /* Menggunakan fleksibilitas untuk mengisi ruang yang tersedia */
+  }
+  
+  .card-detail .detail .right {
+    flex: 1; /* Menggunakan fleksibilitas untuk mengisi ruang yang tersedia */
+  }
+  
+  .card-detail .detail .right img {
+    width: 85%;
+    margin-left: 30px;
+    border-radius: 30px;
+  }
+  
+  .emotion-container {
+    display: flex; /* Menggunakan flexbox */
+    justify-content: center; /* Mengatur jarak antara kotak emosi */
+    padding-top: 30px;
+  }
+  
+  .emotion-box {
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 4px 8px 2px rgba(0.5, 0, 0, 0.5);
+    margin: 5px; 
+    text-align: center;
+  }
+  .emotion-box img {
+    width: 50px;
+    height: 50px;
+  }
+  .emotion-box p {
+    text-align: justify;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .card-detail .info .left h1{
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+    padding-top: 70px;
+  }
+  
+  .card-detail .info .left p {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    padding-top: 20px;
+  }
+  
+  .card-detail .info {
+    display: flex; /* Menggunakan flexbox */
+  }
+  
+  .card-detail .info .left {
+    flex: 1; /* Menggunakan fleksibilitas untuk mengisi ruang yang tersedia */
+  }
+  
+  .card-detail .info .right {
+    flex: 1; /* Menggunakan fleksibilitas untuk mengisi ruang yang tersedia */
+  }
+  
+  .card-detail .info .right img {
+    width: 85%;
+    margin-left: 30px;
+    margin-top: 20px;
+  }
+
+  /* About Us */
+  .card-detail{
+    padding: 50px;
+    border-radius: 30px;
+    box-shadow: 2px 4px 8px 2px rgba(0.5, 0, 0, 0.5);
+    margin: 30px auto;
+    width: 1000px;
+    justify-content: center;
+  }
+
+ h1{
+    text-align: center;
+ }
+
+.tentang {
+    color: black; 
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    font-size: 50px;
+}
+
+.emoinsight {
+    color: #00eafa; 
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    font-size: 50px;
+}
+
+.section {
+    background-color: #fff;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    text-align: justify;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Test Komentar */
+.pengujian {
+    color: black; 
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+}
+
+.emosi {
+    color: #00eafa; 
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+}
+
+.comment-section {
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.comment-label {
+  display: block; 
+  font-weight: bold; 
+  text-align: left; 
+}
+
+.comment-box {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(175, 171, 171);
+}
+
+.button-container {
+  display: flex;
+  justify-content: flex-start; /* Mengarahkan elemen ke sebelah kiri */
+}
+
+.submit-button {
+  display: inline-block;
+  width: 90px;
+  padding: 10px;
+  background-color: #00eafa; 
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 15px;
+  font-weight: bold;
+}
+
+h3{
+    text-align: left;
+    color: black; 
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    padding-left: 100px;
+ }
+
+ .emotion-container-tes {
+    display: flex; /* Menggunakan flexbox */
+    justify-content: center; /* Mengatur jarak antara kotak emosi */
+
+
+}
+
+ .emotion-box-tes {
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 4px 8px 2px rgba(0.5, 0, 0, 0.5);
+    width: 150px; 
+    margin: 5px; 
+    text-align: center;
+}
+.emotion-box-tes img {
+    width: 50px;
+    height: 50px;
+}
+.emotion-box-tes p {
+    text-align: center;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+}
+
+h4{
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+    /* color: #00eafa; */
+    padding: 0;
+}
+
+.hasil {
+  color: black; 
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+}
+
+.emosi_komentar {
+  color: #00eafa; 
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+}
+
+.emosi_yang {
+  color: black; 
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+}
+
+.terdeteksi {
+  color: #00eafa; 
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+}
+
+.joy {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.4);
+}
+.anger {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.4);
+}
+.fear {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.4);
+}
+
+.popup-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border-radius: 20px;
+  width: 70%;
+}
+
+.popup-content img {
+  width: 50px;
+  height: 50px;
+  display: block; 
+  margin-left: auto; 
+  margin-right: auto; 
+}
+
+.popup-content p{
+  text-align: center;
+  color: #00eafa; 
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+}
+
+.popup-content button{
+  display: inline-block;
+  width: 100px;
+  padding: 10px;
+  background-color: #00eafa; 
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 15px;
+  font-weight: bold;
+}
+
+  footer{
+    background-color: #00eafa;
+    font-style: bold;
+    text-align: center;
+    padding: 15px;
+  }
+
+
+ /* Responsiveness */
+@media (max-width: 768px) {
+  .hero {
+    height: 300px;
+  }
+
+  .title {
+    font-size: 30px;
+  }
+
+  .desc {
+    font-size: 16px;
+  }
+
+  .card-detail {
+    width: 90%;
+    padding: 20px;
+  }
+
+  .app-bar .app-bar__navigation ul {
+    padding-left: 10px;
+  }
+
+  .comment-section {
+    width: 90%;
+  }
+
+  .comment-box {
+    height: 80px;
+  }
+
+  .emotion-box {
+    padding: 10px;
+  }
+
+  .emotion-box img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .emotion-box-tes {
+    width: 120px;
+    padding: 10px;
+  }
+
+  .emotion-box-tes img {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media screen and (min-width: 660px) {
+  .app-bar {
+    grid-template-columns: 1fr auto;
+    padding: 8px 32px;
+  }
+
+  .app-bar .app-bar__brand h1 {
+    font-size: 1.5em;
+  }
+
+  .app-bar .app-bar__menu {
+    display: none;
+  }
+
+  .app-bar .app-bar__navigation {
+    width: 100%;
+    position: relative;
+    top: auto;
+    left: auto;
+    width: auto;
+  }
+
+  .app-bar .app-bar__navigation ul li {
+    display: inline-block;
+  }
+
+  .app-bar .app-bar__navigation ul li a {
+    display: inline-block;
+    width: 120px;
+    text-align: center;
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .app-bar .app-bar__brand h1 {
+    font-size: 2em;
+  }
+
+  .card-detail {
+    width: 80%;
+  }
+
+  .comment-section {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .app-bar .app-bar__navigation ul li {
+    list-style: none;
+    font-weight: bold;
+  }
+}
